@@ -36,7 +36,7 @@ const Hero = () => {
           gap={10}
           p={4}
         >
-          <Flex w={"100%"} flexDirection={"column"} gap={5}>
+          <Flex w={"100%"} flexDirection={"column"} gap={5} mt={12}>
             <Heading fontSize={"8xl"}>
               Unleash the Dragon, <br />
               Conquer the Cosmos!
@@ -74,8 +74,8 @@ const Hero = () => {
           textAlign={"center"}
           flexDir={"column"}
         >
-          <Text fontSize={isMobile ? "xl" : "4xl"}>Contract Address:</Text>
-          <Text fontSize={isMobile ? "xl" : "4xl"}>
+          <Text fontSize={isMobile ? "md" : "4xl"}>Contract Address:</Text>
+          <Text fontSize={isMobile ? "sm" : "4xl"}>
             0x78f7b3bc33497375fc9b42b8f6bd62670dc979b3
           </Text>
           <IconButton

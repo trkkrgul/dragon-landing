@@ -23,14 +23,7 @@ const BotInfo = ({ isMobile }) => {
       >
         Our Advanced TG Trading Bot!
       </Heading>
-      <Flex
-        gap={2}
-        flexWrap={"wrap"}
-        flexBasis={"300px"}
-        w={"100%"}
-        p={5}
-        flexDir={isMobile ? "column" : "row"}
-      >
+      <Flex gap={2} flexWrap={"wrap"} flexBasis={"300px"} w={"100%"} p={5}>
         <Card
           bg={"gray.700"}
           mx={"auto"}
